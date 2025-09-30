@@ -1,0 +1,72 @@
+.theme_blue {
+  --main-color: #305cde;
+}
+
+.theme_red {
+  --main-color: #f05b5b;
+}
+
+.theme_green {
+  --main-color: #09bd00;
+}
+
+.theme_yellow {
+  --main-color: #ddf145d3;
+}
+
+.theme_pink {
+  --main-color: #f145d7d3;
+}
+
+.theme_purple {
+  --main-color: #9669f7d3;
+}
+
+.nata {
+  font-family: "Nata sans", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  width: 100vw;
+  height: 100px;
+  background-color: var(--main-color);
+  color: white;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header > section.stats {
+  display: flex;
+  gap: 60px;
+  font-size: 30px;
+}
+
+button {
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  border: none;
+
+  background-color: var(--main-color);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.85; /* subtle hover effect */
+}
+
+input::placeholder {
+  font-size: 20px;
+}

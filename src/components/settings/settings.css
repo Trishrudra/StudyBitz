@@ -1,0 +1,50 @@
+.theme_blue {
+  --main-color: #305cde;
+}
+
+.theme_red {
+  --main-color: #f05b5b;
+}
+
+.theme_green {
+  --main-color: #09bd00;
+}
+
+.theme_yellow {
+  --main-color: #ddf145d3;
+}
+
+.theme_pink {
+  --main-color: #f145d7d3;
+}
+
+.theme_purple {
+  --main-color: #9669f7d3;
+}
+.main .heading {
+  font-size: 50px;
+}
+
+.settings .logout,
+.settings .deleteaccount {
+  height: 200px;
+  width: 400px;
+  font-size: 40px;
+}
+
+.settings main {
+  height: calc(100vh - 400px);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.settings .logout {
+  background-color: oklch(80.91% 0.0849 241.65);
+}
+
+.settings .deleteaccount {
+  background-color: oklch(68.97% 0.1787 22.98);
+}

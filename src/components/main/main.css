@@ -1,0 +1,256 @@
+.theme_blue {
+  --main-color: #305cde;
+}
+
+.theme_red {
+  --main-color: #f05b5b;
+}
+
+.theme_green {
+  --main-color: #09bd00;
+}
+
+.theme_yellow {
+  --main-color: #ddf145d3;
+}
+
+.theme_pink {
+  --main-color: #f145d7d3;
+}
+
+.theme_purple {
+  --main-color: #9669f7d3;
+}
+.main .heading {
+  font-size: 50px;
+}
+
+.main main {
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.go_to_rewards,
+.go_to_settings {
+  background-color: white;
+  color: var(--main-color);
+  height: 60px;
+  width: 150px;
+  padding: 15px;
+  font-weight: 600;
+}
+
+/* 
+
+  Todo list section
+
+  */
+
+.main .todo_list {
+  height: 500px;
+  width: 350px;
+
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Horizontal, Vertical, Blur, Color */
+  border-radius: 20px;
+
+  overflow-y: auto;
+}
+
+.main .todo_list > .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+  color: white;
+  font-size: 40px;
+  height: 70px;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.main .todo_list_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: calc(100% - 50px);
+}
+
+.todo_list {
+  text-align: center;
+  font-size: 30px;
+  margin: 5px;
+  background-color: var(--main-color);
+}
+
+.todo_list_heading {
+  color: white;
+}
+
+.main .todo_list_add {
+  background-color: var(--main-color);
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.main .todo_list_blank {
+  color: var(--main-color);
+  font-size: 25px;
+}
+
+.main .todo_list_item_container {
+  /* width: 100%; */
+  padding-left: 30px;
+  padding-right: 30px;
+  padding: 20px;
+}
+
+/* Date Time Section */
+
+.main .datetime {
+  height: 200px;
+  width: 350px;
+
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Horizontal, Vertical, Blur, Color */
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+/* Big Tasks */
+
+.main .big_tasks {
+  height: 600px;
+  width: 1200px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Horizontal, Vertical, Blur, Color */
+  border-radius: 20px;
+}
+
+.main .big_tasks_heading {
+  font-size: 50px;
+  text-align: center;
+  margin: 30px;
+}
+
+.main .big_tasks_container {
+  display: flex;
+}
+
+.main .big_tasks_container_mini {
+  width: 400px;
+  height: 440px;
+}
+
+.main .not_started {
+  background-color: oklch(88.5% 0.062 18.334);
+  border-bottom-left-radius: 20px;
+  padding: 10px;
+  height: 380px;
+}
+
+.main .not_started2 {
+  background-color: oklch(88.5% 0.062 18.334);
+}
+
+.main .in_progress {
+  background-color: oklch(90.1% 0.058 230.902);
+  padding: 10px;
+  height: 380px;
+}
+
+.main .in_progress2 {
+  background-color: oklch(90.1% 0.058 230.902);
+}
+
+.main .done {
+  background-color: oklch(95% 0.052 163.051);
+  border-bottom-right-radius: 20px;
+  padding: 10px;
+  height: 380px;
+}
+
+.main .done2 {
+  background-color: oklch(95% 0.052 163.051);
+}
+
+.main .tasks {
+  background-color: white;
+  padding-top: 10px;
+  height: 240px;
+
+  overflow-y: auto;
+}
+
+.main .big_tasks_head {
+  font-size: 40px;
+  text-align: center;
+}
+
+.main .big_tasks_item {
+  height: 40px;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .task_name {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.main .task_move {
+  height: 30px;
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  color: var(--main-color);
+  font-size: 20px;
+  padding-bottom: 0px;
+}
+
+.big_tasks {
+  background-color: var(--main-color);
+}
+
+.big_tasks_heading {
+  color: white;
+}
+
+.add_big_task {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.clear_kanban_done_button {
+  margin-left: 450px;
+  width: 300px;
+}
+
+.new_task_input {
+  height: 30px;
+  width: 170px;
+}
+
+.add_kanban_task {
+  margin-left: 470px;
+}

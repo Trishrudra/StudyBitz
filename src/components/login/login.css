@@ -1,0 +1,111 @@
+.theme_blue {
+  --main-color: #305cde;
+}
+
+.theme_red {
+  --main-color: #f05b5b;
+}
+
+.theme_green {
+  --main-color: #09bd00;
+}
+
+.theme_yellow {
+  --main-color: #ddf145d3;
+}
+
+.theme_yellow {
+  --main-color: #f145d7d3;
+}
+
+.theme_yellow {
+  --main-color: #9669f7d3;
+}
+
+.login {
+  background-color: var(--main-color);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .actual {
+  text-align: center;
+  color: var(--main-color);
+  border-radius: 20px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 600px;
+  width: 600px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 2; /* above the starfield */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+
+  background-color: transparent;
+  backdrop-filter: blur(6px);
+}
+
+.login_heading {
+  font-size: 60px;
+  margin: 0px;
+}
+
+.login .password,
+.login .email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 100px;
+}
+
+.login .password {
+  padding-left: 23px;
+}
+
+.login .email {
+  padding-left: 58px;
+}
+
+.login .email_heading,
+.login .password_heading {
+  font-size: 20px;
+}
+
+.login input {
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.login_button {
+  height: 60px;
+  width: 120px;
+  padding: 20px;
+  background-color: transparent;
+  box-shadow: 10px 10px 20px #305cde;
+  transition: 0.5s;
+  margin-bottom: 10px;
+}
+
+.login_button:hover {
+  box-shadow: none;
+  transition: 0.5s;
+  transform: translate(5px, 5px);
+}
+
+.to_sign_up {
+  color: white;
+}
